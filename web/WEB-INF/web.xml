@@ -45,4 +45,26 @@
 	    <url-pattern>/uploadPhoto</url-pattern>
 	</servlet-mapping> 
 	
+	<!-- 5、 HeroListServlet的映射-->
+	<servlet>
+        <servlet-name>HeroListServlet</servlet-name>
+        <servlet-class>servlet.HeroListServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>HeroListServlet</servlet-name>
+        <url-pattern>/listHero</url-pattern>
+    </servlet-mapping>
+	
+	<!-- 6、 HeroAddServlet的映射-->
+	<servlet>
+        <servlet-name>HeroAddServlet</servlet-name>
+        <servlet-class>servlet.HeroAddServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>HeroAddServlet</servlet-name>
+        <url-pattern>/addHero</url-pattern>
+    </servlet-mapping> 
+	
 </web-app>
