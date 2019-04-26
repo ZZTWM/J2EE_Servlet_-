@@ -99,4 +99,10 @@
         <servlet-name>HeroUpdateServlet</servlet-name>
         <url-pattern>/updateHero</url-pattern>
     </servlet-mapping>
+    
+    <!-- 10、提交JSON对象 -->
+    <servlet>
+        <servlet-name>SubmitServlet</servlet-name>
+        <servlet-class>SubmitServlet</servlet-class>
+    </servlet>  
 </web-app>
